@@ -1,11 +1,16 @@
 import './_style.scss'
-import Seta from '../../assets/seta-esquerda.png'
 import Nav from '../Nav'
+import { HiArrowLeft } from 'react-icons/hi'
 
 const Header = () => {
+
+    const eventReturn = () => {
+        alert('UpBase - Teste')
+    }
+
     return (
         <header>
-            <a href='#.'><img src={Seta} alt='seta para esquerda'></img></a>
+            <span className='back' onClick={eventReturn}><HiArrowLeft size="35px" color='white'/></span>
             <h1>Contratar</h1>
             <Nav />
         </header>

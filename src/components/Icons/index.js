@@ -1,11 +1,15 @@
 import './_style.scss'
 
-const Icons = (props) => {
+const Icon = (props) => {
+    const appClick = () => {
+        alert('UpBase - Teste')
+    }
+    
     return (
-        <div className='icons'>
-            {props.icon}
+        <div className='icons' onClick={appClick}>
+            <span>{props.icon}</span>
             <p>{props.p}</p>
         </div>
     )
 }
-export default Icons
+export default Icon

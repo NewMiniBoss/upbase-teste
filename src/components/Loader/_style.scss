@@ -1,0 +1,43 @@
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006557;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    animation: loading 1s forwards 1.5s;
+
+    @keyframes loading {
+        to {
+            transform: translateY(100vh);
+            opacity: 0;
+        }
+
+        from {
+            transform: translateY(0vh);
+            opacity: 1;
+        }
+    }
+
+    span {
+        border: 4px solid #fff;
+        border-top: #006557 4px solid;
+        padding: 20px;
+        border-radius: 100%;
+        animation: girando infinite 2s;
+
+        @keyframes girando {
+            to {
+                transform: rotate(0deg);
+            }
+
+
+            from {
+                transform: rotate(365deg);
+
+            }
+        }
+    }
+}

@@ -6,6 +6,11 @@ header {
     justify-content: space-between;
     padding: 0 30px;
 
+    .back {
+        padding-top: 6px;
+        cursor: pointer;
+    }
+
     a {
         text-align: center;
 
