@@ -4,11 +4,11 @@
 
 ## Figma
 
-`https://www.figma.com/file/d2IXdKd2gy2yRzQC1ZNblB/Untitled?node-id=0-1&t=I6IULnryMy9KmtBV-0`
+https://www.figma.com/file/d2IXdKd2gy2yRzQC1ZNblB/Untitled?node-id=0-1&t=I6IULnryMy9KmtBV-0
 
 ## Deploy
 
-`https://upbase-teste.vercel.app/`
+https://upbase-teste.vercel.app/
 
 ## Tecnologias
 
