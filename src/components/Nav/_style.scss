@@ -1,0 +1,67 @@
+nav {
+    div {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            display: block;
+            width: 40px;
+            border-top: 4px solid #fff;
+
+            &::after,
+            &::before {
+                border-top: 4px solid #fff;
+                content: "";
+                display: block;
+                position: relative;
+                margin-top: 6px;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    ul {
+        list-style: none;
+        position: fixed;
+        background-color: #006557;
+        top: 10vh;
+        left: 100vw;
+        transition: 0.5s;
+
+        li {
+            a {
+                text-decoration: none;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+                height: 18vh;
+                font-size: 18px;
+                font-weight: bold;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}
+
+// MENU ATIVO
+.botao-animation {
+    border-top-color: transparent;
+    margin: 0 0 15px 0;
+
+    &::after {
+        transform: rotate(135deg);
+    }
+
+    &::before {
+        transform: rotate(-135deg);
+        top: 10px;
+    }
+}
+
+.lista-ativa {
+    left: 0;
+}
