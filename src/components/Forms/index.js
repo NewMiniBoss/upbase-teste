@@ -6,7 +6,7 @@ const Form = () => {
             <h2>Selecione o dia e horário para o plantão</h2>
             <form>
                 <label for="paciente">Paciente</label>
-                <input name="paciente"type="text" placeholder="Nome do Paciente" />
+                <input name="paciente"type="text" placeholder="Digite o nome do paciente" />
                 <label for="data">Data</label>
                 <input name='data' type='date' placeholder="Dia" />
                 <label for="horario">Horário</label>
